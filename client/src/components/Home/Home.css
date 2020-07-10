@@ -1,0 +1,187 @@
+.Home{
+    font-family: rubrik-edge-new,sans-serif;
+  }
+  
+.Firstview{
+    height: 568px;
+    background-image: url(../Images/Logos/Dean-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .quote{
+    width: 60px;
+    padding: 3px;
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    background-color: darkgray;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 50px;
+  }
+
+  .quote1{
+    height: 100%;
+    background: white; 
+    box-shadow: 1x 0px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 25px;
+    right: 0;
+    width: 60px;
+    z-index: 200px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+  }
+
+
+
+  #firstSentence{
+    letter-spacing: 3px;
+    margin: 0 10px 10px 20px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #40494A;
+    padding: 10px 0 0 0;
+  }
+  
+  #secondsentence{
+    margin: 10px 10px 10px 20px;
+    padding-bottom: 20px;
+    white-space: pre-wrap;
+    font-weight: 700;
+    font-style: normal;
+    color: #40494A;
+  }
+
+  #firstInfo{
+    background-color: #40494A;
+    color: #8EC6C1;
+    text-align: left;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    padding: 20px;
+  }
+  
+  #secondInfo{
+    background-color: #8EC6C1;
+    color: #40494A;
+    text-align: left;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .reasons{
+    background-color: #40494A;
+  }
+  
+  .reason-example{
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    color: white;
+  }
+
+  .reason-info{
+    display: flex;
+  }
+
+  .reason-example img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  
+  #reason-example-last{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  
+  .reasons p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .reasons li{
+    margin: 10px;
+  }
+  
+  h4{
+    color: #8EC6C1;
+    margin: 0 0 10px 0; 
+    padding: 20px 5px 5px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    }
+  
+  h5{
+    color: #8EC6C1;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+
+  .WorkExample{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #examplesTitle{
+    background-color: #8EC6C1;
+    padding: 15px 0 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  
+  .ImageExample{
+    width: 100%;
+    height: auto;
+  }
+
+  .LastInfo{
+    background-color: #ffffff;
+  }
+  
+  div p{
+    margin: 15px 20px;
+  }
+  
+  #emphasizeText{
+    font-weight: bold;
+  }
+  
+  .creatives{
+    padding: 10px;
+    background-color: #9A6699;
+    
+    text-align: center;
+  }
+
+  
+  
+  .firstPart{
+    font-size: 18px;
+    color: #8EC6C1;
+  }
+
+  .secondPart{
+    color: white;
+    font-size: 18px;
+  }
+
+  .creatives a:focus,
+  .creatives a:hover{
+    color: #00ff00;
+  }

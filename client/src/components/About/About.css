@@ -1,0 +1,47 @@
+.About{
+    font-family: rubrik-edge-new,sans-serif;
+  }
+
+  .firstAbout{
+    display: flex;
+    flex-direction: column;
+    height: 568px;
+    background-image: url(../Images/Logos/Girl1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #firstsentence{
+    letter-spacing: 3px;
+    margin: 10px 10px 10px 20px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #40494A;
+    padding: 10px 0 0 0;
+  }
+
+  #secondsentence{
+    margin: 10px 10px 10px 20px;
+    padding-bottom: 50px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    color: #40494A;
+  }
+
+  .spacer{
+      flex: 1;
+  }
+
+  .secondInfo{
+    background-color: #8EC6C1;
+    color: #40494A;
+  }
+
+  .secondInfo p{
+      margin: 0;
+      padding: 15px;
+  }

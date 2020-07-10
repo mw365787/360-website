@@ -1,0 +1,184 @@
+
+.Quote{
+    background-color: #8EC6C1;
+}
+
+.container{
+    z-index: -1;
+}
+
+
+
+
+/* ///// inputs /////*/
+
+input:focus ~ label, input:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -20px;
+    left: 40px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.text-area-replace:focus ~ label, .text-area-replace:valid ~ label{
+    font-size: 0.75em;
+    color: #999;
+    top: -20px;
+    left: -20px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-inputs {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input-text-area {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-inputs {
+        width:100%;
+    }
+
+    .styled-input-text-area{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .styled-inputs{
+        width: 100%;
+    }
+
+    .styled-input-text-area{
+        width: 100%;
+    }
+}
+
+.styled-inputs label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: -4px;
+    left: 45px;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input-text-area label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: white;
+    color: #40494A;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-containers {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: horizontal;
+
+}
+
+
+.submit-button {
+    padding: 7px 35px;
+    margin: 20px auto;
+    display: inline-block;
+    background-color: #8EC6C1;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: solid white 2px;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-button:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+.flexies{
+    display: flex;
+    max-height: 50px;
+}
+
+.flexies img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border: solid #40494A 1px;
+    background: #40494A;
+}
+
+@media (max-width: 768px) {
+    .submit-button {
+        width:100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .submit-button{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}

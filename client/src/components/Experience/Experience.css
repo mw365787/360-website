@@ -1,0 +1,46 @@
+.Experience{
+    font-family: rubrik-edge-new,sans-serif;
+  }
+
+  .firstExp{
+    height: 568px;
+    background-image: url(../Images/Logos/Guy3.2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .firstsentence{
+    letter-spacing: 3px;
+    margin: 0 10px 10px 20px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #40494A;
+    padding: 10px 0 0 0;
+  }
+
+  .secondsentence{
+    margin: 10px 10px 10px 20px;
+    padding-bottom: 25px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    color: #40494A;
+  }
+
+  #xp{
+      background: #9A6699;
+      color: white;
+      margin: 7px 50px 7px 20px;
+      padding-left: 5px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      max-width: 250px;
+  }
+
+  #slogan {
+      color: #40494A;
+      font-weight: 700;
+  }

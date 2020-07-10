@@ -1,0 +1,54 @@
+.Services{
+    font-family: rubrik-edge-new,sans-serif;
+  }
+
+  #firstsentence{
+    letter-spacing: 3px;
+    margin: 0 10px 10px 20px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: #40494A;
+    padding: 10px 0 0 0;
+  }
+
+  #secondsentence{
+    margin: 10px 10px 10px 20px;
+    white-space: pre-wrap;
+    font-weight: 500;
+    font-style: normal;
+    color: #40494A;
+  }
+
+  .firstServices{
+    height: auto;
+    background-image: url(../Images/Logos/Guy4.2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .service-type{
+    color: white;
+    margin: 7px 30px 7px 10px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+  }
+  #type {
+      width: 275px;
+      color: white;
+      font-size: 16px;
+      display: flex;
+      background: #40494A;
+      margin: 5px;
+      text-align: left;
+  }
+  .service-type img{
+      display: flex;
+        padding: 3px 10px 3px 10px;
+        width: 15px;
+        height: 15px;
+  }
